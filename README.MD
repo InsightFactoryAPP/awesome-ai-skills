@@ -53,6 +53,8 @@ Follow link and installation instructions for each skill. Each skill links to a 
 
 - [Design critique](https://github.com/jezweb/claude-skills/blob/main/plugins/frontend/skills/design-review/SKILL.md?utm_source=chatgpt.com) - Review a web app or page for visual design quality — layout, typography, spacing, colour, hierarchy, consistency, interaction patterns, and responsive behaviour.
 
+- [Hallmark](https://github.com/Nutlope/hallmark) - Better UI/UX for webpages.
+
 ### System Administration / DevOps
 
 - [Hashicorp Agent Skills](https://github.com/hashicorp/agent-skills) - A collection of Agent skills and plugins for HashiCorp products, by Hashicorp.
