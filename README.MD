@@ -1,76 +1,53 @@
-![banner](/pictures/banner.jpg)
+![banner](pictures/banner.jpg)
 
-# What is AI skill?
+# awesome-ai-skills
 
-AI skills are reusable “how-to packages” that make an AI better at a specific type of task. Think of them like little instruction manuals or cooking recipes plus optional files/scripts/templates that an AI can load when needed.
+[![Skills](https://img.shields.io/badge/skills-20-blue)](#skills)
+[![Harness](https://img.shields.io/badge/works%20with-Claude%20%7C%20Codex%20%7C%20AGY-lightgrey)](#how-to-use-it)
 
-## Table of Contents
+Skill files are how-to packages for an AI agent: instructions plus whatever scripts, templates or reference files the task needs. Load one and the agent stops guessing about a job it has never done.
 
-- [Why this repository?](#why-this-repository)
-- [How to use it?](#how-to-use-it)
-- [Skills](#skills)
-  - [Software Engineering](#software-engineering)
-  - [Debugging](#debugging)
-  - [UI/UX](#uiux)
-  - [System Administration / DevOps](#system-administration--devops)
-  - [Better Documentation](#better-documentation)
+There are plenty of skill repositories around, and most of them try to cover everything. This one is my own shelf. These are skills I've used, found useful, and want to be able to find again, mostly around UI/UX, software engineering, system administration, DevOps and documentation.
 
-## Why this repository?
+## How to use it
 
-There are tons of repositories with AI skills, but they are often cover a very broad range of topics. This repository for my personal use of AI skills that I have found useful and want to keep track of. The skills primarily focus on UI/UX, Software Engineering, System Administration, Devops, and better documentation. I may also include some skills that are useful for general productivity.
+Each entry links to its own repository with its own install instructions. Nothing is vendored here.
 
-## How to use it?
-
-Follow link and installation instructions for each skill. Each skill links to a separate repository. On purpose this repo is called AI skills and not claude skills, as very often you can use them with another harness, e.g. AGY or Codex.
+The name is AI skills rather than Claude skills on purpose. Most of these work in Codex, AGY or another harness that reads skill files.
 
 ## Skills
 
-### Software Engineering
+### Software engineering
 
 - [Ponytail](https://github.com/DietrichGebert/ponytail) - You know him. Long ponytail. Oval glasses. Has been at the company longer than the version control. You show him fifty lines; he looks at them, says nothing, and replaces them with one. Ponytail puts him inside your AI agent.
-
-- [Andrej Karpathy's Guidelines](https://github.com/multica-ai/andrej-karpathy-skills/tree/main) - Andrej Karpathy is a well-known AI researcher and engineer. This skill provides guidelines and best practices for software engineering.
-
-- [VibeSec-Skill](https://github.com/BehiSecc/VibeSec-Skill) - An AI skill that brings 5+ years of bug bounty hunting experience directly into your AI coding workflow - so LLM models write secure code from the start.
-
-- [Code Simplifier](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/code-simplifier) - This skill simplifies complex code, maintaining functionality while improving readability and maintainability.
-
-- [Antigravity Awesome skills](https://github.com/sickn33/antigravity-awesome-skills) - A collection of skills that enhance your AI's capabilities in various areas (API/Architecture patterns, git, e.t.c).
-
-- [Code review](https://github.com/thechandanbhagat/claude-skills/blob/main/skills/code-review/SKILL.md?utm_source=chatgpt.com) - Perform automated code reviews with best practices, security checks, and refactoring suggestions. Use when reviewing code, checking for vulnerabilities, or analyzing code quality.
+- [Andrej Karpathy's Guidelines](https://github.com/multica-ai/andrej-karpathy-skills/tree/main) - Guidelines and practices for software engineering work.
+- [VibeSec-Skill](https://github.com/BehiSecc/VibeSec-Skill) - Bug bounty experience pushed into the coding workflow, so the model writes secure code from the start.
+- [Code Simplifier](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/code-simplifier) - Simplifies complex code while keeping behaviour, for readability and maintenance.
+- [Antigravity Awesome Skills](https://github.com/sickn33/antigravity-awesome-skills) - A collection covering API and architecture patterns, git and more.
+- [Code review](https://github.com/thechandanbhagat/claude-skills/blob/main/skills/code-review/SKILL.md?utm_source=chatgpt.com) - Automated reviews with security checks and refactoring suggestions.
 
 ### Debugging
 
-- [Debug Mode Skill](https://github.com/doraemonkeys/claude-code-debug-mode) - Cursor-style Debug Mode skill for coding agents. Hypothesis-driven debugging with runtime log instrumentation and human-in-the-loop verification.
-
-- [Debug skill](https://github.com/AlmogBaku/debug-skill) - teaches AI how to debug, when to set breakpoints, how to step through code, how to inspect state.
+- [Debug Mode Skill](https://github.com/doraemonkeys/claude-code-debug-mode) - Hypothesis-driven debugging with runtime log instrumentation and a human in the loop.
+- [Debug skill](https://github.com/AlmogBaku/debug-skill) - When to set breakpoints, how to step through code, how to read state.
 
 ### UI/UX
 
-- [UI Pro Max](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/tree/main) - An AI SKILL that provide design intelligence for building professional UI/UX on multiple platforms.
+- [UI Pro Max](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/tree/main) - Design guidance for building UI across platforms.
+- [Frontend Design](https://github.com/anthropics/claude-code/blob/main/plugins/frontend-design/skills/frontend-design/SKILL.md) - Frontend design guidance for coding agents.
+- [Design critique](https://github.com/jezweb/claude-skills/blob/main/plugins/frontend/skills/design-review/SKILL.md?utm_source=chatgpt.com) - Reviews a page for layout, typography, spacing, colour, hierarchy, consistency, interaction and responsiveness.
+- [Hallmark](https://github.com/Nutlope/hallmark) - Better UI/UX for web pages.
 
-- [Frontend Design](https://github.com/anthropics/claude-code/blob/main/plugins/frontend-design/skills/frontend-design/SKILL.md) - This skill provides guidance for frontend design.
+### System administration and DevOps
 
-- [Design critique](https://github.com/jezweb/claude-skills/blob/main/plugins/frontend/skills/design-review/SKILL.md?utm_source=chatgpt.com) - Review a web app or page for visual design quality — layout, typography, spacing, colour, hierarchy, consistency, interaction patterns, and responsive behaviour.
+- [HashiCorp Agent Skills](https://github.com/hashicorp/agent-skills) - Skills and plugins for HashiCorp products, from HashiCorp.
+- [linux-sysadmin-skills](https://github.com/HermeticOrmus/linux-sysadmin-skills) - A skill bundle for Linux system administration.
+- [Kubernetes Skill](https://github.com/LukasNiessen/kubernetes-skill) - Grounds Kubernetes and Helm answers in official practice instead of guesses.
+- [LibreDevOps Claude Code](https://github.com/HermeticOrmus/LibreDevOps-Claude-Code) - 25 plugins covering infrastructure, containers, CI/CD, observability and cloud operations.
+- [LibreSecOps Claude Code](https://github.com/HermeticOrmus/LibreSecOps-Claude-Code) - Skills for security operations: vulnerability management, compliance, incident response.
 
-- [Hallmark](https://github.com/Nutlope/hallmark) - Better UI/UX for webpages.
+### Documentation
 
-### System Administration / DevOps
-
-- [Hashicorp Agent Skills](https://github.com/hashicorp/agent-skills) - A collection of Agent skills and plugins for HashiCorp products, by Hashicorp.
-
-- [linux-sysadmin-skills](https://github.com/HermeticOrmus/linux-sysadmin-skills) - A Claude Code skill bundle for Linux system administration.
-
-- [Kubernetes Skill](https://github.com/LukasNiessen/kubernetes-skill) - Kubernetes Skill for Claude Code and Codex. LLMs hallucinate a lot with K8s, this skill fixes this. It eliminates hallucinations and grounds your Kubernetes, Helm etc official best practices.
-
-- [LibreDevOps Claude Code](https://github.com/HermeticOrmus/LibreDevOps-Claude-Code) - 25 specialized plugins covering infrastructure, containers, CI/CD, observability, and cloud operations.
-
-- [LibreSecOps Claude Code](https://github.com/HermeticOrmus/LibreSecOps-Claude-Code) - A collection of Claude Code skills focused on security operations, including vulnerability management, compliance, and incident response.
-
-### Better Documentation
-
-- [Humanizer](https://github.com/blader/humanizer) - It is not X. It is Y. But you know what? It is Z. Humanizer helps you write documentation that is more human-readable and engaging, without AI anti-patterns that make every text sound like AI slop.
-
-- [Markdown Discipline Skill](https://github.com/HermeticOrmus/markdown-discipline-skills) - Skill that strips AI-slop from markdown — no em dashes, no marketing fluff, no emoji bullets, sentence case headings. Anti-AI-tells discipline for any AI-assisted writing.
-
-- [Ru Text](https://github.com/talkstream/ru-text) - Russian text quality plugin for Claude Code, Cowork, Codex CLI, Gemini CLI, Cursor, OpenClaw, and Notion.
+- [Humanizer](https://github.com/blader/humanizer) - Removes the patterns that make every document read like a model wrote it.
+- [Markdown Discipline Skill](https://github.com/HermeticOrmus/markdown-discipline-skills) - Strips AI tells from markdown: no em dashes, no marketing fluff, no emoji bullets, sentence case headings.
+- [Ru Text](https://github.com/talkstream/ru-text) - Russian text quality plugin for Claude Code, Codex CLI, Gemini CLI, Cursor and others.
